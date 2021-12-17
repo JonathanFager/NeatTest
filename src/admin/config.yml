@@ -1,7 +1,7 @@
 backend:
-  # Use netlify identity as backend
-  name: git-gateway
-  branch: master
+  name: github
+  repo: jonathanFager/NeatTest # Path to your GitHub repository
+  # optional, defaults to master
   ### enable below lines for github integration ###
   # name: github
   # repo: surjithctly/neat-starter
